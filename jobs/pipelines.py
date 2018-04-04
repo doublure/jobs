@@ -12,8 +12,8 @@ class JobsPipeline(object):
     def open_spider(self, spider):
         self.database = pymysql.connect(host='localhost',
                                   port=3306,
-                                  user='chunpeng',
-                                  passwd='0202',
+                                  user='xxxxxx',
+                                  passwd='xxxxxx',
                                   db='job_info',
                                   charset='utf8')
         self.cursor = self.database.cursor()
